@@ -1,0 +1,172 @@
+* {
+    margin: 0;
+    padding:0;
+}
+header {
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    position: absolute;
+    width: 100%;
+    box-sizing: border-box;
+}
+.logo {
+    padding: 0px;
+    
+}
+ul {
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    color: hotpink;
+    text-decoration: none;
+    
+}
+ul li {
+    padding: 0 20px;
+    font-size: 25px;
+    text-decoration: none;
+    color: hotpink;
+    
+}
+li a {
+    text-decoration: none;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(255, 102, 0);
+}
+li a:hover{
+    background-color:rgb(20, 167, 40);
+}
+nav {
+    padding: 20px;
+    text-decoration:none;
+}
+.logo {
+    color: greenyellow;
+    font-family: 'Courier New', Courier, monospace;
+    padding-left: 35px;
+    font-size: 30px;
+    text-shadow: 1px 1px 2px rgb(0 0 0 );
+}
+#hero {
+    background-image: url("./pexels-asad-photo-maldives-3601425.jpg");
+    height: 600px;
+    background-position: center;
+    background-size: cover;
+}
+#hero-content {
+    width: 900px;
+    background-color: rgba(51,  47, 47, 0.8);
+    box-shadow: 2px 4px 8px rgb(68, 67, 67);
+    border-radius: 8px;
+    text-align: center;
+    padding: 50px 0;
+    margin: 0 auto;
+    position: relative;
+    top:150px;
+}
+#hero-content h1 {
+    color: white;
+    text-transform: uppercase;
+    font-size: 50px;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+#hero-content p {
+    color: white;
+    text-transform: uppercase ;
+    font-size: 24px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-bottom: 17px;
+    margin-bottom: 32px;
+}
+#hero-content a {
+    text-decoration: none;
+    color:black ;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    background-color:yellow;
+    box-shadow: 2px 4px 8px rgb(68, 67, 67);
+    border-radius: 8px;
+    padding: 7px 14px;
+    width: 16px;
+}
+#hero-content a:hover {
+        background-color:rgb(219, 223, 16);
+}
+#highlights {
+    background: linear-gradient(45deg, rgb(227,255,253), rgb(10,134, 126)  );
+    
+    font-family: monospace;
+    text-align: center;
+    padding-top: 10px;
+}
+.highlights-content h1 {
+    padding-bottom: 20px;
+    font-size: 50px;
+}
+.images {
+    display: flex;
+    height: 400px;
+   
+    margin-bottom: 20px;
+    width: 100%;
+    background-color: linear-gradient(0deg, rgb(65, 206, 196), rgb(26, 231, 218)  );
+    
+}
+.images strong {
+    color:  rgb(0, 255, 64);
+    justify-content: center;
+}
+img {
+    height: 300px;
+    width: 90%;
+    margin: auto;
+    box-shadow: 2px 4px 8px rgb(68, 67, 67);
+    border-radius: 8px;
+
+    
+}
+.img1 {
+    text-align: center;
+    border-radius: 8px;
+    font-family: monospace;
+    font-size: 20px;
+    padding: 0 3px;
+}
+.img2 {
+    text-align: center;
+    font-family: monospace;
+    font-size: 20px;
+    padding: 0 3px;
+}
+.img3 {
+    text-align: center;
+    font-family: monospace;
+    font-size: 20px;
+    padding: 0 5px;
+}
+footer {
+    background: linear-gradient(70deg rgb(24,24,24), rgb(25,29,29));
+    background-color:black ;
+}
+footer li {
+    width: 80px;
+    height: 80px;
+
+}
+footer img {
+    width: 100%;
+    height: 100%;
+}
+.imag {
+    background: linear-gradient(70deg rgb(24,24,24), rgb(25,29,29));
+}
+footer ul   {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    padding:40px;
+} 
+a { text-decoration: none;}
